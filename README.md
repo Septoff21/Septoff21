@@ -1,9 +1,16 @@
 <div align="center">
 
+<!-- A: 中文矩阵雨 -->
+<img src="./assets/matrix-rain.svg" width="100%" alt="Matrix Rain" />
+
+<br/>
+
+<!-- 哲学打字动画 -->
 <img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&size=20&duration=3000&pause=1800&color=00D4FF&background=0D111700&center=true&vCenter=true&multiline=true&width=720&height=90&lines=如果宇宙是一场实验...;AI+是维持精准度的减熵设备;而人类是往试管里加未知试剂的疯狂科学家" alt="Typing SVG" />
 
 <br/>
 
+<!-- JARVIS HUD 动效 -->
 <img src="./assets/jarvis.svg" width="100%" alt="JARVIS HUD" />
 
 </div>
@@ -19,6 +26,13 @@
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+</div>
+
+<br/>
+
+<!-- B: JARVIS 终端对话 -->
+<div align="center">
+<img src="./assets/terminal.svg" width="100%" alt="JARVIS Terminal" />
 </div>
 
 <br/>
@@ -62,6 +76,33 @@
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,nodejs,electron,react,docker,git&theme=dark" />
+
+</div>
+
+<br/>
+
+---
+
+## 🎵 感知频道 · 观测者歌单
+
+> *写代码时宇宙在播放的音乐*
+
+<div align="center">
+
+| `#` | 曲目 | 艺术家 | 氛围标签 |
+|:---:|------|--------|----------|
+| `01` | Time | Hans Zimmer | `#cinematic` `#inception` |
+| `02` | First Step | Hans Zimmer | `#interstellar` `#探索` |
+| `03` | Open Eye Signal | Jon Hopkins | `#electronic` `#意识流` |
+| `04` | Giorgio by Moroder | Daft Punk | `#tech` `#机器之声` |
+| `05` | Dayvan Cowboy | Boards of Canada | `#ambient` `#时间漂移` |
+| `06` | Tears in Rain | Vangelis | `#bladerunner` `#存在主义` |
+| `07` | Archangel | Burial | `#dark electronic` `#城市夜晚` |
+| `08` | An Ending (Ascent) | Brian Eno | `#ambient` `#宇宙感` |
+| `09` | Awake | Tycho | `#chill` `#专注模式` |
+| `10` | Abiogenesis | Carbon Based Lifeforms | `#scifi` `#生命起源` |
+| `11` | Teardrop | Massive Attack | `#iconic` `#经典` |
+| `12` | Ára bátur | Sigur Rós | `#transcendent` `#超越边界` |
 
 </div>
 
