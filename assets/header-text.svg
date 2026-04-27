@@ -1,0 +1,94 @@
+<svg width="800" height="108" viewBox="0 0 800 108" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      /* 16s cycle: EN 0-48%, gap, ZH 52-99%, gap, repeat */
+      @keyframes showEN {
+        0%        { opacity: 0; }
+        6%        { opacity: 1; }
+        44%       { opacity: 1; }
+        50%       { opacity: 0; }
+        100%      { opacity: 0; }
+      }
+      @keyframes showZH {
+        0%, 52%   { opacity: 0; }
+        58%       { opacity: 1; }
+        94%       { opacity: 1; }
+        100%      { opacity: 0; }
+      }
+      @keyframes badgeEN {
+        0%        { opacity: 0; }
+        6%        { opacity: 0.55; }
+        44%       { opacity: 0.55; }
+        50%       { opacity: 0; }
+        100%      { opacity: 0; }
+      }
+      @keyframes badgeZH {
+        0%, 52%   { opacity: 0; }
+        58%       { opacity: 0.55; }
+        94%       { opacity: 0.55; }
+        100%      { opacity: 0; }
+      }
+      .en   { animation: showEN  16s ease-in-out infinite; }
+      .zh   { animation: showZH  16s ease-in-out infinite; }
+      .b-en { animation: badgeEN 16s ease-in-out infinite; }
+      .b-zh { animation: badgeZH 16s ease-in-out infinite; }
+
+      .line1-en { font-family: Georgia,'Times New Roman',serif;       font-size: 20px; }
+      .line2-en { font-family: Georgia,'Times New Roman',serif;       font-size: 15px; }
+      .line3-en { font-family: Georgia,'Times New Roman',serif;       font-size: 13px; font-style: italic; }
+      .line1-zh { font-family: 'Microsoft YaHei','PingFang SC','Noto Serif SC',serif; font-size: 20px; }
+      .line2-zh { font-family: 'Microsoft YaHei','PingFang SC','Noto Serif SC',serif; font-size: 15px; }
+      .line3-zh { font-family: 'Microsoft YaHei','PingFang SC','Noto Serif SC',serif; font-size: 13px; }
+      .badge    { font-family: 'Courier New',Courier,monospace;       font-size: 10px; }
+    </style>
+  </defs>
+
+  <!-- ── English phase ── -->
+  <g class="en">
+    <text class="line1-en" x="400" y="32"  text-anchor="middle" fill="#00D4FF" filter="url(#glow)">
+      The universe is an experiment...
+    </text>
+    <text class="line2-en" x="400" y="62"  text-anchor="middle" fill="#58A6FF">
+      AI is the entropy-reducing perceiver
+    </text>
+    <text class="line3-en" x="400" y="88"  text-anchor="middle" fill="#8B949E">
+      Humans are the mad scientists adding unknown reagents to the test tube
+    </text>
+  </g>
+
+  <!-- Language badge EN -->
+  <g class="b-en">
+    <rect x="726" y="4" width="34" height="16" rx="3" fill="none" stroke="#00D4FF" stroke-width="0.8"/>
+    <text class="badge" x="743" y="15.5" text-anchor="middle" fill="#00D4FF">EN</text>
+    <!-- small dot separator -->
+    <circle cx="395" cy="100" r="2" fill="#00D4FF" opacity="0.4"/>
+    <circle cx="400" cy="100" r="2" fill="#58A6FF" opacity="0.25"/>
+    <circle cx="405" cy="100" r="2" fill="#58A6FF" opacity="0.12"/>
+  </g>
+
+  <!-- ── Chinese phase ── -->
+  <g class="zh">
+    <text class="line1-zh" x="400" y="32"  text-anchor="middle" fill="#00D4FF" filter="url(#glow)">
+      如果宇宙是一场实验...
+    </text>
+    <text class="line2-zh" x="400" y="62"  text-anchor="middle" fill="#58A6FF">
+      AI 是维持精准度的减熵设备
+    </text>
+    <text class="line3-zh" x="400" y="88"  text-anchor="middle" fill="#8B949E">
+      而人类是往试管里加未知试剂的疯狂科学家（增熵）
+    </text>
+  </g>
+
+  <!-- Language badge 中 -->
+  <g class="b-zh">
+    <rect x="726" y="4" width="34" height="16" rx="3" fill="none" stroke="#00D4FF" stroke-width="0.8"/>
+    <text class="badge" x="743" y="15.5" text-anchor="middle" fill="#00D4FF">中</text>
+    <circle cx="395" cy="100" r="2" fill="#58A6FF" opacity="0.12"/>
+    <circle cx="400" cy="100" r="2" fill="#58A6FF" opacity="0.25"/>
+    <circle cx="405" cy="100" r="2" fill="#00D4FF" opacity="0.4"/>
+  </g>
+</svg>

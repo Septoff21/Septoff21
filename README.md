@@ -5,8 +5,8 @@
 
 <br/>
 
-<!-- 哲学打字动画 -->
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&size=20&duration=3000&pause=1800&color=00D4FF&background=0D111700&center=true&vCenter=true&multiline=true&width=720&height=90&lines=如果宇宙是一场实验...;AI+是维持精准度的减熵设备;而人类是往试管里加未知试剂的疯狂科学家" alt="Typing SVG" />
+<!-- 中英双语哲学文字 · 自动 7s 轮播 -->
+<img src="./assets/header-text.svg" width="100%" alt="EN/ZH Header" />
 
 <br/>
 
